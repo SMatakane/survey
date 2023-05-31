@@ -95,7 +95,7 @@
     else {
       echo "Successfully queried to table likes<br>";
     }
-    #header("Location: index.html");
+    header("Location: index.html");
   ?>
   </body>
 </html>
