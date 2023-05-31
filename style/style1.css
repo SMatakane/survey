@@ -1,0 +1,41 @@
+body {
+  position:absolute;
+  background-color: #A4EAFF;
+  font-size: 2em;
+}
+
+body,button {
+  font-family: sans-serif;
+  font-weight:700;
+  letter-spacing:1.4px;
+}
+
+button {
+  position:relative;
+  background:yellow;
+  border:5px solid #ed1c6f;
+  border-radius:2rem;
+  cursor:pointer;
+  transition:0.5s;
+  overflow:hidden;
+  outline:none;
+  border-bottom-color:#ed1c6f;
+  width:200px;
+  height:200px;
+  left:100%;
+  top:20em;
+}
+
+
+button:hover {
+  background: #b9134f;
+  box-shadow: 0 0 0 5px #b9134f, 0 0 25px #b9134f, 0 0 50px #b9134f, 0 0 200px #b1394f;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+
+.btnFill {
+  animation-delay:0.5s;
+}
+.btnView {
+  animation-delay:0.25s;
+}

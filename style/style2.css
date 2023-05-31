@@ -1,0 +1,61 @@
+.container {
+  align-items:center;
+  background:#A4EAFF;
+  font-family:Arial;
+  letter-spacing:1.4px;
+  padding:4em;
+  border:10px solid black;
+  border-radius:5px;
+}
+
+.section_personal{
+  width:50%;
+  outline:none;
+  margin: 10px 20px;
+}
+
+.form {
+  width:100%;
+  padding:12px;
+  border: 3px solid #f5337f;
+  border-radius:4px;
+  box-sizing:border-box;
+  margin-bottom:10px;
+}
+
+.section_food{
+  height:250px;
+  margin:10px 20px;
+}
+
+.likes_table{
+  width:1000px;
+  height:300px;
+  text-align:center;
+  border:3px solid black;
+  background:green;
+}
+
+th {
+  font-weight:200px;
+  width:150px;
+  height:60px;
+}
+
+.likes_rows {
+  background-color:red;
+  width:20px;
+}
+
+
+.submit {
+  border-radius:8px;
+  width:200px;
+  height:50px;
+  background:#e8e925;
+  font-size:20px;
+  margin:auto;
+}
+.submit:hover{
+  background-color:#E75480;
+}

@@ -1,0 +1,24 @@
+body {
+  background:#A4EAFF;
+  position:absolute;
+}
+.container {
+  position:relative;
+  top:10em;
+  left:10em;
+  background:#A4EAD1;
+  width:120%;
+  align-items:center;
+  font-family:Arial;
+  letter-spacing:1.4px;
+  padding:4em;
+  height:100%;
+}
+
+.main {
+  position:relative;
+  width:5em;
+  height:5em;
+  left:10em;
+  background:yellow;
+}
